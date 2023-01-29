@@ -11,4 +11,6 @@ import tailwind from './tailwindcss.svg'
 import mypicture from './mypicture.png'
 import red from './red.jpg'
 import todo from './todo.jpg'
-export { close, menu, lake, videoEditing, forest,editor, reading, react, javascript, tailwind ,mypicture, red, todo};
+import todoportret from './todoportret.jpg'
+import calculator from './calculator.png'
+export { close, menu, lake, videoEditing, forest,editor, reading, react, javascript, tailwind ,mypicture, red, todo,  todoportret, calculator};

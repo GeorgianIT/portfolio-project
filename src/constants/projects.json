@@ -4,42 +4,21 @@
         "unicKey": 1,
         "id": 1,
         "title": "ToDo List",
-        "path": "#",
-        "image": "laptop.jpg"
+        "path": "http://localhost:3001/",
+        "image": "todoportret.jpg"
     },
     {
         "unicKey": 2,
         "id": 2,
-        "title": "Only Javascript",
-        "path": "#",
-        "image": "pexels2.jpg"
+        "title": "Calculator",
+        "path": "../Calculator/index.html",
+        "image": "calculator.png"
     },
     {
-        "unicKey": 3,
+        "unicKey": 23,
         "id": 2,
-        "title": "HTML/CSS",
-        "path": "#",
-        "image": "reading.jpg"
-    },
-    {
-        "unicKey": 4,
-        "id": 1,
-        "title": "HTML/CSS",
-        "path": "#",
-        "image": "laptop.jpg"
-    },
-    {
-        "unicKey": 5,
-        "id": 2,
-        "title": "HTML/CSS",
-        "path": "#",
-        "image": "pexels2.jpg"
-    },
-    {
-        "unicKey": 6,
-        "id": 2,
-        "title": "HTML/CSS",
-        "path": "#",
-        "image": "laptop.jpg"
+        "title": "BMR Calculator",
+        "path": "http://localhost:3002/",
+        "image": "BMR.png"
     }
 ]
