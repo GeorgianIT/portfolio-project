@@ -15,10 +15,24 @@
         "image": "calculator.png"
     },
     {
-        "unicKey": 23,
-        "id": 2,
+        "unicKey": 3,
+        "id": 1,
         "title": "BMR Calculator",
         "path": "http://localhost:3002/",
         "image": "BMR.png"
+    },
+    {
+        "unicKey": 4,
+        "id": 1,
+        "title": "Calories Tracker",
+        "path": "http://localhost:3003/",
+        "image": "CaloriesTracker.png"
+    },
+    {
+        "unicKey": 5,
+        "id": 1,
+        "title": "Quiz App",
+        "path": "http://localhost:3004/",
+        "image": "Quiz.png"
     }
 ]

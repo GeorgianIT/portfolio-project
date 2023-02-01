@@ -21,7 +21,7 @@ const ThirdSection = () => {
   
 
   return ( 
-    <div className='flex flex-col items-center bg-black h-auto'>
+    <div id='projects' className='flex flex-col items-center bg-black h-auto'>
       <p className='text-[40px] text-white font-bold mt-14 mb-14'>Projects </p>
       <Filter setActiveCategory={setActiveCategory} activeCategory={activeCategory} setFiltered={setFiltered} allProjects={allProjects} />
       <motion.div layout animate={{opacity: 1}} initial={{opacity:0}} exit={{opacity:0}} className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 flex-col gap-10 w-auto w-auto mx-40 mb-20'>

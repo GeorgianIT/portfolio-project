@@ -33,7 +33,7 @@ const FirstSection = () => {
             </motion.div>  
             <div className=' w-90% flex justify-start gap-3 pt-5'>
                 <a href='https://www.linkedin.com/in/georgian-tudor/' target='_blank'><img src={linkedin} alt='linkedin' className='w-[45px]' /></a>                  
-                <a href='https://www.github.com' target='_blank' ><img src={github2} alt='github' className='w-[44px]' /></a>      
+                <a href='https://github.com/GeorgianIT' target='_blank' ><img src={github2} alt='github' className='w-[44px]' /></a>      
             </div>
           </div> 
           </div>

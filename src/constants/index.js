@@ -18,6 +18,13 @@ export const navLinks = [
         element: <SecondSection/>,
     },
     {
+        id: "education",
+        title: "Education",
+        link: "#education",
+        path: '/firstsection',
+        element: <FirstSection/>,
+    },
+    {
         id: "skills",
         title: "Skills",
         link: "#skills",
@@ -28,13 +35,6 @@ export const navLinks = [
         id: "tehnologies",
         title: "Tehnologies",
         link: "#tehnologies",
-        path: '/firstsection',
-        element: <FirstSection/>,
-    },
-    {
-        id: "education",
-        title: "Education",
-        link: "#education",
         path: '/firstsection',
         element: <FirstSection/>,
     },
