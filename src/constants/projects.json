@@ -12,27 +12,27 @@
         "id": 2,
         "title": "Calculator",
         "path": "../Calculator/index.html",
-        "image": "calculator.png"
+        "image": "calculator.jpeg"
     },
     {
         "unicKey": 3,
         "id": 1,
         "title": "BMR Calculator",
         "path": "http://localhost:3002/",
-        "image": "BMR.png"
+        "image": "BMR.jpeg"
     },
     {
         "unicKey": 4,
         "id": 1,
         "title": "Calories Tracker",
         "path": "http://localhost:3003/",
-        "image": "CaloriesTracker.png"
+        "image": "FitnessCalories.jpeg"
     },
     {
         "unicKey": 5,
         "id": 1,
         "title": "Quiz App",
         "path": "http://localhost:3004/",
-        "image": "Quiz.png"
+        "image": "Quiz.jpg"
     }
 ]

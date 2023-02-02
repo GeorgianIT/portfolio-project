@@ -13,4 +13,5 @@ import red from './red.jpg'
 import todo from './todo.jpg'
 import todoportret from './todoportret.jpg'
 import calculator from './calculator.png'
-export { close, menu, lake, videoEditing, forest,editor, reading, react, javascript, tailwind ,mypicture, red, todo,  todoportret, calculator};
+import calculator2 from './calculator.jpeg'
+export { close, menu, lake, videoEditing, forest,editor, reading, react, javascript, tailwind ,mypicture, red, todo,  todoportret, calculator, calculator2};
