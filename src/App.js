@@ -15,7 +15,7 @@ function App() {
       {/* Second section */}
       <SecondSection />
       {/* Third section */}
-      <ThirdSection/>
+      <ThirdSection />
       {/* Footer */}
       <Footer/>
     
