@@ -2,12 +2,12 @@ export const projects = [
     {
         id: "home",
         title: "ASCN Project",
-        file:  "Proiect ASCN II 2021",
+        file:  "/ProiectASCN.pdf",
     },
     {
         id: "about",
         title: "Cv",
-        file: "CVGeorgian",
+        file: "/CVGeorgian.pdf",
     },
 
 ]

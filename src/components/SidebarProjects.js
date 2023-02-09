@@ -4,8 +4,9 @@ import {projects} from '../constants/projects'
 import { Sling as Hamburger } from 'hamburger-react'
 
 
+
 const SidebarProjects = () => {
-    const [showSidebar, setShowSidebar] = useState(false);
+  const [showSidebar, setShowSidebar] = useState(false);
     return (
         <>
         
@@ -30,7 +31,7 @@ const SidebarProjects = () => {
                 <ul className='list-none flex flex-col justify-start place-items-start ml-20 mt-20 flex-1 ;'>
             {projects.map((nav, index) => (
                 <li key={nav.title} className={`font-normal cursor-pointer text-[35px] ${index === nav.length -1 ? 'ml-0' : 'mb-4'} text-white`}>
-                    {/* <button className='text-white' onClick={downloadPDF(nav.id)}>{nav.title}</button> */}
+                <a href={nav.file} className='text-white' download={`${nav.title}.pdf`}  >{nav.title}</a>
               </li>))}
                 </ul>
                 
@@ -38,37 +39,5 @@ const SidebarProjects = () => {
 </>
   )
 }
-
-// const downloadPDF = (ID) => {
-//     // using Java Script method to get PDF Fil
-//   fetch("Proiect ASCN II 2021.pdf").then(response => {
-//     if(ID === "home"){
-//             response.blob().then(blob => {
-//                 // Creating new object of PDF file
-//                 const fileURL = window.URL.createObjectURL(blob);
-//                 // Setting various property values
-//                 let alink = document.createElement('a');
-//                 alink.href = fileURL;
-//                 alink.download = "Proiect ASCN II 2021.pdf";
-//                 alink.click();
-//         })}
-//         })
-
-
-//   fetch("CVGeorgian.pdf").then(response => {
-//     if (ID === "about")
-//     {
-//         response.blob().then(blob => {
-//             // Creating new object of PDF file
-//             const fileURL = window.URL.createObjectURL(blob);
-//             // Setting various property values
-//             let alink = document.createElement('a');
-//             alink.href = fileURL;
-//             alink.download = "CVGeorgian.pdf";
-//             alink.click();
-//     })}
-//     })
-
-// }
 
 export default SidebarProjects
