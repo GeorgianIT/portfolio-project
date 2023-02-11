@@ -22,18 +22,17 @@ const ThirdSection = () => {
   
 
   return ( 
-    <div id='projects' className='flex relative flex-row items-center bg-black h-auto'>
-      <div className=' absolute top-0 left-0  h-[100%]'>
-        <SidebarProjects />
-      </div>
+    <div id='projects' className='flex relative lg:flex-row flex-col items-center bg-black h-auto'>
+      <div className='flex lg:flex-row flex-col items-center m-auto w-[80%] w-[100%]'>
       <div className='flex flex-col items-center bg-black h-auto m-auto'>
       <p className='text-[40px] text-white font-bold mt-14 mb-14'>Projects </p>
       <Filter setActiveCategory={setActiveCategory} activeCategory={activeCategory} setFiltered={setFiltered} allProjects={allProjects} />
       <div  className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 flex-col gap-10 w-auto w-auto mx-40 mb-20'>
         {filtered.map((data) => { return <Project key={data.unicKey} data={data} /> })}
       </div>
+        </div>
       </div>
-      </div>
+    </div>
 
   )
   

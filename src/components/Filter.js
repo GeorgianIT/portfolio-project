@@ -21,6 +21,7 @@ function Filter({ setActiveCategory, activeCategory, setFiltered, allProjects })
         <button onClick={() => setActiveCategory(0)} className={` p-[1rem] w-28 bg-white text-black rounded-2xl font-bold ${activeCategory === 0 ? "bg-[rgb(65,98,168)]" : "" }`}>All</button>
         <button onClick={() => setActiveCategory(1)} className={` p-[1rem] w-28 bg-white text-black rounded-2xl font-bold ${activeCategory === 1 ? "bg-[rgb(65,98,168)]" : "" }`}>React</button>
         <button onClick={() => setActiveCategory(2)} className={` p-[1rem] w-28 bg-white text-black rounded-2xl font-bold ${activeCategory === 2 ? "bg-[rgb(65,98,168)]" : "" }`}>JavaScript</button>
+        <button onClick={() => setActiveCategory(3)} className={` p-[1rem] w-28 bg-white text-black rounded-2xl font-bold ${activeCategory === 3 ? "bg-[rgb(65,98,168)]" : "" }`}>College Projects</button>
     </motion.div>
   )
 }
