@@ -37,7 +37,7 @@ class Calculator {
       if (isNaN(prev) || isNaN(current)) return
       switch (this.operation) {
         case '+':
-          computation = prev + current
+          computation = prev + current 
           break
         case '-':
           computation = prev - current
@@ -74,8 +74,7 @@ class Calculator {
     }
   
     updateDisplay() {
-      this.currentOperandTextElement.innerText =
-        this.getDisplayNumber(this.currentOperand)
+      this.currentOperandTextElement.innerText = this.getDisplayNumber(this.currentOperand)
       if (this.operation != null) {
         this.previousOperandTextElement.innerText =
           `${this.getDisplayNumber(this.previousOperand)} ${this.operation}`
