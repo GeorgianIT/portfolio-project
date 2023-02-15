@@ -2,7 +2,7 @@ import React from 'react'
 // import laptop from '../assets/laptop.jpg'
 import linkedin from '../assets/linkedin.svg'
 import github2 from '../assets/github2.svg'
-import { red } from '../assets'
+import { aiphoto } from '../assets'
 import { TitleText, TypingText } from './CustomText';
 import { motion } from 'framer-motion';
 import { staggerContainer } from '../util/motion';
@@ -15,7 +15,7 @@ const FirstSection = () => {
     return (
       <div className='dark bg-black flex w-full h-[100vh]'>
           <div className='bg-black hidden lg:block  w-1/2 h-[100vh]'>
-          <img src={red} alt='photo' className='aspect-auto object-contain w-full h-[100vh]' />
+          <img src={aiphoto} alt='photo' className='aspect-auto object-contain w-full h-[100vh]' />
           </div>
         <div className='bg-black flex-1 w-1/2 py-20 h-[100vh] text-white'>
               <div className='mt-64 ml-20 pb-5 w-9/12 border-b border-gray'>
