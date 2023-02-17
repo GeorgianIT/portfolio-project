@@ -26,7 +26,6 @@ const SecondSection = () => {
                   className=''>
                   <TypingText title={'Frontend Developer Enthusiast'} textStyles='text-start text-[20px] text-gray-400'/>
           </motion.div>
-        
           <EducationalJourney/>
           <HardSkills/>
           <Tehnologies />

@@ -1,10 +1,11 @@
 import React from 'react'
 import { TitleText, TypingText } from './CustomText';
 
+
 const EducationalJourney = () => {
   return (
       <>
-        <TitleText title='Educational Journey' textStyles={'font-bold text-[40px] mt-14 text-center'} />
+          <TitleText title='Educational Journey' textStyles={'font-bold text-[40px] mt-14 text-center'} />
         <ol className="relative border-l border-sky-400 dark:border-sky-400 w-[60%] m-auto mt-10 mb-20">                  
     <li className="mb-10 ml-4">
             <div id='education' className="animate-ping absolute w-3 h-3 bg-sky-400 rounded-full mt-1.5 -left-1.5 border border-white dark:border-sky-400 dark:bg-sky-400"></div>
@@ -28,7 +29,7 @@ const EducationalJourney = () => {
         <h3 className="text-lg font-semibold text-gray-900 dark:text-white"></h3>
         <p className="text-xl font-normal text-gray-500 dark:text-gray-400">Start self learning Web Develoment</p>
     </li>
-        </ol>
+          </ol>
       </>
   )
 }
