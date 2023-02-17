@@ -14,7 +14,7 @@ import HardSkills from './HardSkills';
 const SecondSection = () => {
   return (
     <div className=' w-full h-auto flex justify-center mt-20'>
-      <div className=' h-full w-1/2'>
+      <div className=' h-full lg:w-1/2 sm:w-3/4'>
         <div className='w-[80%] text-[25px] m-auto'>
           <p id='about' className='text-[40px] text-center font-bold mb-14'>About me</p>
           <TitleText title='I am a graduate of the college of Electrical Engineering and Computer Science.' textStyles={' lg:text-[25px]'} />

@@ -15,5 +15,5 @@ import todoportret from './todoportret.jpg'
 import calculator from './calculator.png'
 import calculator2 from './calculator.jpeg'
 import pdf from './icons_pdf.png'
-import aiphoto from './AiPhoto.png'
+import aiphoto from './AiPhoto.jpeg'
 export { close, menu, lake, videoEditing, forest,editor, reading, react, javascript, tailwind ,mypicture, red, todo,  todoportret, calculator, calculator2, pdf,aiphoto};

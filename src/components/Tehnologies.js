@@ -17,15 +17,15 @@ const Tehnologies = () => {
                   viewport={{once:false, amount:0.25}}
                   className='flex flex-col lg:flex-row justify-center mt-14 gap-20'>
                 <div>
-                <img src={react} />
+                <img src={react} className='m-auto'/>
                 <p className='text-center'>React</p>
                 </div>
                 <div>
-                <img src={javascript} />
+                <img src={javascript} className='m-auto' />
                 <p className='text-center'>Javascript</p>
                 </div>
                 <div>
-                <img src={tailwind} />
+                <img src={tailwind} className='m-auto' />
                 <p className='text-center'>Tailwind CSS</p>
               </div>
             </motion.div>
