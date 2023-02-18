@@ -4,7 +4,7 @@
         "unicKey": 1,
         "id": 1,
         "title": "ToDo List",
-        "path": "http://localhost:3001/",
+        "path": "TodoApp",
         "image": "todoportret.jpg"
     },
     {
@@ -18,21 +18,21 @@
         "unicKey": 3,
         "id": 1,
         "title": "BMR Calculator",
-        "path": "http://localhost:3002/",
+        "path": "/BMR",
         "image": "BMR.jpeg"
     },
     {
         "unicKey": 4,
         "id": 1,
         "title": "Calories Tracker",
-        "path": "http://localhost:3003/",
+        "path": "CaloriesTracker",
         "image": "FitnessCalories.jpeg"
     },
     {
         "unicKey": 5,
         "id": 1,
         "title": "Quiz App",
-        "path": "http://localhost:3004/",
+        "path": "/Quiz",
         "image": "Quiz.jpg"
     },
     {

@@ -2,7 +2,13 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'mRoad': "url('../src/pages/components/assetsTravelApp/photoshop.png')",
+        'photoshop': "url('../src/pages/components/assetsTravelApp/final2.png')",
+        'bridge' : "url('../src/pages/components/assetsTravelApp/bridge.jpg')",
+      },
+    },
   },
   plugins: [],
 
