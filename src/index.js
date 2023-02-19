@@ -37,7 +37,7 @@ const router = createBrowserRouter([
   {
     path: "CaloriesTracker",
     element: <CaloriesTrackerApp/>,
-  },
+  }
 ]);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

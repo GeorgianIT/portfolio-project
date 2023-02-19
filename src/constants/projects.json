@@ -1,4 +1,3 @@
-
 [
     {   
         "unicKey": 1,
@@ -11,7 +10,7 @@
         "unicKey": 2,
         "id": 2,
         "title": "Calculator",
-        "path": "../Calculator/index.html",
+        "path": "Calculator",
         "image": "calculator.jpeg"
     },
     {
@@ -34,34 +33,5 @@
         "title": "Quiz App",
         "path": "/Quiz",
         "image": "Quiz.jpg"
-    },
-    {
-        "unicKey": 6,
-        "id": 3,
-        "title": "ASCN Project",
-        "path": "/ProiectASCN.pdf",
-        "image": "ASCN.png"
-    },
-    {
-        "unicKey": 7,
-        "id": 3,
-        "title": "Code Coverter",
-        "path": "/CodeCoverter.pdf",
-        "image": "code_converter.png"
-    },
-    {
-        "unicKey": 8,
-        "id": 3,
-        "title": "Digital System Using Bistabile Type D and FPLA",
-        "path": "/FPLA.pdf",
-        "image": "FPLA.png"
-    }
-    ,
-    {
-        "unicKey": 9,
-        "id": 3,
-        "title": "Insulin regulator",
-        "path": "/Regulator Insulina.pdf",
-        "image": "insulin.png"
     }
 ]

@@ -2,17 +2,21 @@ import React from 'react'
 import { useEffect, useState } from 'react'
 import {motion} from "framer-motion"
 
-function Filter({ setActiveCategory, activeCategory, setFiltered, allProjects })
+function Filter({ setActiveCategory, activeCategory, setFiltered, setfilteredPDF, allProjects, allPDFProjects })
 {
     useEffect(() => {
         if (activeCategory === 0) {
-          setFiltered(allProjects);
+          setFiltered(allProjects,allPDFProjects);
           return;
         }
       const filtered = allProjects.filter((data) =>
         data.id === (activeCategory)
       );
-        setFiltered(filtered); 
+      setFiltered(filtered); 
+      const filteredPDF = allPDFProjects.filter((data) =>
+        data.id === (activeCategory)
+      );
+      setfilteredPDF(filteredPDF);
     }, [activeCategory]);
 
   return (
