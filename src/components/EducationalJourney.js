@@ -1,11 +1,34 @@
 import React from 'react'
 import { TitleText, TypingText } from './CustomText';
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { useEffect } from "react";
+import { boxVariant } from '../util/motion';
 
 
 const EducationalJourney = () => {
+
+const control = useAnimation();
+const [ref, inView] = useInView();
+
+useEffect(() => {
+  if (inView) {
+    control.start("visible");
+  } else {
+    control.start("hidden");
+  }
+}, [control, inView]);
+
   return (
-      <>
-          <TitleText title='Educational Journey' textStyles={'font-bold text-[40px] mt-14 text-center'} />
+    <>
+      <div id='education'>
+      <TitleText title='Educational Journey' textStyles={'font-bold text-[40px] mt-14 text-center'} />
+        <motion.div
+      className="box"
+      ref={ref}
+      variants={boxVariant}
+      initial="hidden"
+      animate={control}>  
         <ol className="relative border-l border-sky-400 dark:border-sky-400 w-[60%] m-auto mt-10 mb-20">                  
     <li className="mb-10 ml-4">
             <div id='education' className="animate-ping absolute w-3 h-3 bg-sky-400 rounded-full mt-1.5 -left-1.5 border border-white dark:border-sky-400 dark:bg-sky-400"></div>
@@ -30,6 +53,8 @@ const EducationalJourney = () => {
         <p className="text-xl font-normal text-gray-500 dark:text-gray-400">Start self learning Web Develoment</p>
     </li>
           </ol>
+        </motion.div>
+        </div>
       </>
   )
 }

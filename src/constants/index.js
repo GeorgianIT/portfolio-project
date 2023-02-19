@@ -1,6 +1,7 @@
 import FirstSection from "../components/FirstSection";
 import Footer from "../components/Footer";
 import SecondSection from "../components/SecondSection";
+import ThirdSection from '../components/ThirdSection';
 
 export const navLinks = [
     {
@@ -22,28 +23,35 @@ export const navLinks = [
         title: "Education",
         link: "#education",
         path: '/firstsection',
-        element: <FirstSection/>,
+        element: <SecondSection/>,
     },
     {
         id: "skills",
         title: "Skills",
         link: "#skills",
         path: '/firstsection',
-        element: <FirstSection/>,
+        element: <SecondSection/>,
     },
     {
         id: "tehnologies",
         title: "Tehnologies",
         link: "#tehnologies",
         path: '/firstsection',
-        element: <FirstSection/>,
+        element: <SecondSection/>,
+    },
+    {
+        id: "hobbies",
+        title: "Hobbies",
+        link: "#hobbies",
+        path: '/hobbies',
+        element: <SecondSection/>,
     },
     {
         id: "project",
         title: "Projects",
         link: "#projects",
         path: '/firstsection',
-        element: <FirstSection/>,
+        element: <ThirdSection/>,
     },
     {
         id: "contact",

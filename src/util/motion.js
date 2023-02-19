@@ -26,6 +26,8 @@ export const textVariant = (delay) => ({
     }),
 };
   
+
+
 export const staggerContainer = (staggerChildren, delayChildren) => ({
     hidden: {},
     show: {
@@ -36,6 +38,11 @@ export const staggerContainer = (staggerChildren, delayChildren) => ({
     },
 });
   
+
+export const squareVariants = {
+  visible: { opacity: 1, scale: 4, transition: { duration: 1 } },
+  hidden: { opacity: 0, scale: 0 }
+};
 
 export const TypingText = ({ title , textStyles}) => (
     <motion.p
@@ -52,6 +59,11 @@ export const TypingText = ({ title , textStyles}) => (
     </motion.p>
 );
   
+export const boxVariant = {
+  visible: { opacity: 1, scale: 1, x:0, transition: { duration: 0.5 } },
+  hidden: { opacity: 0, scale: 0, x: 200 }
+};
+
 export const textVariant2 = {
     hidden: {
       opacity: 0,

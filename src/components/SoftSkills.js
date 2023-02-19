@@ -1,12 +1,33 @@
 import React from 'react'
 import { TitleText, TypingText } from './CustomText';
 import { Progress } from 'react-sweet-progress';
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { useEffect } from "react";
+import { boxVariant } from '../util/motion';
 
 const SoftSkills = () => {
-    return (
-        <div>
+  const control = useAnimation();
+const [ref, inView] = useInView();
+
+useEffect(() => {
+  if (inView) {
+    control.start("visible");
+  } else {
+    control.start("hidden");
+  }
+}, [control, inView]);
+
+  return (
+    <>
+      <TitleText title='Soft Skills' textStyles={'font-bold text-[40px] mt-20 text-center'} />
+        <motion.div
+        ref={ref}
+        variants={boxVariant}
+        initial="hidden"
+        animate={control}>
       <div>
-    <TitleText title='Soft Skills' textStyles={'font-bold text-[40px] mt-20 text-center'} />
+    
           <div className='m-auto flex justify-around hidden lg:flex py-14 w-[80%]'>
             <p className='w-[132px] text-center '>Attention to details</p>
             <p className='w-[132px] text-center'>Research</p>
@@ -35,7 +56,7 @@ const SoftSkills = () => {
             <p className='px-24 o'>Research</p>
             <Progress type="circle" className='' strokeWidth={5} percent={75}/>
         </div>
-        </div>
+        </motion.div></>
   )
 }
 

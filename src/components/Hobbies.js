@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 
 const Hobbies = () => {
   return (<>
+    <div id='hobbies'>
     <TitleText title='Hobbies' textStyles={'font-bold text-[40px] mt-14 mb-14 text-center'} />
         <div className="flex min-h-auto mb-14 items-center justify-center">
   <div className="grid grid-cols-1 gap-5 md:grid-cols-2 rounded-xl lg:grid-cols-3">
@@ -45,6 +46,7 @@ const Hobbies = () => {
     </div>
   </div>
       </div>
+    </div>
   </>
   )
 }

@@ -2,20 +2,34 @@ import React from 'react'
 import { react, javascript, tailwind } from '../assets'
 import { TitleHover, TitleText, TypingText } from './CustomText';
 import { motion, AnimatePresence } from 'framer-motion';
-import { staggerContainer } from '../util/motion';
+import { useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { useEffect } from "react";
+import { boxVariant } from '../util/motion';
 
 
 const Tehnologies = () => {
+  const control = useAnimation();
+const [ref, inView] = useInView();
+
+useEffect(() => {
+  if (inView) {
+    control.start("visible");
+  } else {
+    control.start("hidden");
+  }
+}, [control, inView]);
+
   return (
     <div id='tehnologies' className=''>
       <div className='w-[70%] m-auto'>
         <TitleText title='Favorite tehnologies' textStyles={'font-bold text-[40px] mt-14 text-center'} />
-          <motion.div
-                      variants={staggerContainer}
-                      initial='hidden'
-                      whileInView='show'
-                  viewport={{once:false, amount:0.25}}
-                  className='flex flex-col lg:flex-row justify-center mt-14 gap-20'>
+        <motion.div
+      ref={ref}
+      variants={boxVariant}
+      initial="hidden"
+      animate={control}
+      className='box flex flex-col lg:flex-row justify-center mt-14 gap-20'>
                 <div>
                 <img src={react} className='m-auto'/>
                 <p className='text-center'>React</p>
