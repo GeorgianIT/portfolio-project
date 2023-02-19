@@ -6,8 +6,8 @@ export default function ProductList({ row }) {
   return (
     <div className='text-white flex flex-col text-center mt-10'>
       <p className='text-[30px] font-bold'>Products</p>
-      <div className='text-white flex flex-col mt-10 text-center py-2 border-solid border-t-2'>
-          <div className='flex justify-between w-[100%] pb-2 border-b-2 font-bold lg:text-[20px] text-sm'>
+      <div className='text-white flex flex-col mt-10 text-center border-solid border-t-2'>
+          <div className='flex justify-between w-[100%] text-center py-2 pb-2 border-b-2 font-bold lg:text-[20px] text-sm'>
             <p className='w-[25%]'>Food Name</p>
             <p className='w-[25%]'>Calories/100g</p>
             <p className='w-[25%]'>Serving size&#40; g	&#41;</p>
