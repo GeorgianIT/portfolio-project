@@ -1,5 +1,5 @@
 import React from 'react'
-import { useEffect, useState } from 'react'
+import { useEffect} from 'react'
 import {motion} from "framer-motion"
 
 function Filter({ setActiveCategory, activeCategory, setFiltered, setfilteredPDF, allProjects, allPDFProjects })

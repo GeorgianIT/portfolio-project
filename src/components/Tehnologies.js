@@ -1,7 +1,7 @@
 import React from 'react'
 import { react, javascript, tailwind } from '../assets'
-import { TitleHover, TitleText, TypingText } from './CustomText';
-import { motion, AnimatePresence } from 'framer-motion';
+import {  TitleText } from './CustomText';
+import { motion} from 'framer-motion';
 import { useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";

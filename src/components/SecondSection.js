@@ -2,7 +2,6 @@ import React from 'react'
 import { TitleText, TypingText } from './CustomText';
 import { motion } from 'framer-motion';
 import { staggerContainer } from '../util/motion';
-import { Progress } from 'react-sweet-progress';
 import "react-sweet-progress/lib/style.css";
 import Tehnologies from './Tehnologies';
 import Hobbies from './Hobbies';

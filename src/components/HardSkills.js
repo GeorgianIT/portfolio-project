@@ -1,5 +1,5 @@
 import React from 'react'
-import { TitleText, TypingText } from './CustomText';
+import { TitleText } from './CustomText';
 import { Progress } from 'react-sweet-progress';
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
