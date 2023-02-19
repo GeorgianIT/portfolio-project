@@ -3,7 +3,7 @@ import './quiz.css'
 
 function QuizApp() {
   return (
-    <div className="">
+    <div className="quiz-body">
       <Quiz/>
     </div>
   );
