@@ -2,7 +2,7 @@ import React from 'react'
 
 const Exploring = () => {
   return (
-      <div id='exploring' className='bg-black text-white snap-start h-[20vh] text-center'>
+      <div id='exploring' className='bg-black text-white snap-start lg:h-[20vh] h-[40vh] text-center'>
           <div className='m-auto w-[60%]'>
           <p className='text-4xl pt-20 font-bold'>
               EXPLORING NATURE

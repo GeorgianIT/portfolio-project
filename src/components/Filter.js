@@ -21,7 +21,7 @@ function Filter({ setActiveCategory, activeCategory, setFiltered, setfilteredPDF
 
   return (
     <motion.div layout
-    className='text-black mb-20 flex justify-between lg:gap-6 gap-2 lg:text-md text-xs'>
+    className='text-black mb-20 flex justify-between lg:gap-6 gap-2 lg:text-[15px] text-xs'>
         <button onClick={() => setActiveCategory(0)} className={` p-[1rem] lg:w-28 w-20 bg-white text-black rounded-2xl font-bold ${activeCategory === 0 ? "bg-[rgb(65,98,168)]" : "" }`}>All</button>
         <button onClick={() => setActiveCategory(1)} className={` p-[1rem] lg:w-28 w-20 bg-white text-black rounded-2xl font-bold ${activeCategory === 1 ? "bg-[rgb(65,98,168)]" : "" }`}>React</button>
         <button onClick={() => setActiveCategory(2)} className={` p-[1rem] lg:w-28 w-20 bg-white text-black rounded-2xl font-bold ${activeCategory === 2 ? "bg-[rgb(65,98,168)]" : "" }`}>JavaScript</button>

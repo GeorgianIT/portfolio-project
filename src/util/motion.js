@@ -61,7 +61,7 @@ export const TypingText = ({ title , textStyles}) => (
   
 export const boxVariant = {
   visible: { opacity: 1, scale: 1, x:0, transition: { duration: 0.5 } },
-  hidden: { opacity: 0, scale: 0, x: 200 }
+  hidden: { opacity: 0, scale: 0, x: -200 }
 };
 
 export const textVariant2 = {

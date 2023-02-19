@@ -33,28 +33,28 @@ useEffect(() => {
             <p className='w-[132px] text-center'>Research</p>
           </div>
           <div className='m-auto flex justify-around hidden lg:flex w-[80%]'>
-            <Progress type="circle" strokeWidth={5} percent={90}/>
-            <Progress type="circle" strokeWidth={5} percent={85} />
+            <Progress type="circle" strokeWidth={5} percent={95}/>
+            <Progress type="circle" strokeWidth={5} percent={90} />
           </div>
           <div className='m-auto flex justify-around hidden lg:flex py-10 w-[80%] gap-4'>
             <p className='w-[132px] text-center'>Fast Learner</p>
             <p className='w-[132px] text-center'>Problem Solving</p>
           </div>
           <div className='m-auto flex justify-around hidden w-[80%] lg:flex'>
-            <Progress type="circle" strokeWidth={5} percent={80}/>
-            <Progress type="circle" strokeWidth={5} percent={75} />
+            <Progress type="circle" strokeWidth={5} percent={85}/>
+            <Progress type="circle" strokeWidth={5} percent={80} />
           </div>
         </div>
         <div className='flex flex-col lg:hidden block items-center text-center gap-7'>
 
             <p className='px-10 '>Attention to details</p>
-            <Progress type="circle" className='' strokeWidth={5} percent={90}/>
+            <Progress type="circle" className='' strokeWidth={5} percent={95}/>
             <p className='px-24'>Research</p>
+            <Progress type="circle" className='' strokeWidth={5} percent={90}/>
+            <p className='px-10 '>Fast Learner</p>
             <Progress type="circle" className='' strokeWidth={5} percent={85}/>
-            <p className='px-10 '>Attention to details</p>
+            <p className='px-24 o'>Problem Solving</p>
             <Progress type="circle" className='' strokeWidth={5} percent={80}/>
-            <p className='px-24 o'>Research</p>
-            <Progress type="circle" className='' strokeWidth={5} percent={75}/>
         </div>
         </motion.div></>
   )
