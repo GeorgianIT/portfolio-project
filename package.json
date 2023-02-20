@@ -1,5 +1,5 @@
 {
-  "homepage": "https://georgianit.github.io/",
+  "homepage": "https://georgianit.github.io/portfolio-project",
   "name": "website",
   "version": "0.1.0",
   "private": false,
@@ -30,6 +30,9 @@
     "util": "^0.12.5",
     "uuidv4": "^6.2.13",
     "web-vitals": "^2.1.4"
+  },
+  "buildOptions": {
+    "baseUrl": "/portfolio-project"
   },
   "scripts": {
     "start": "react-scripts start",
