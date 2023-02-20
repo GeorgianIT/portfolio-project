@@ -12,6 +12,7 @@ import QuizApp from './pages/QuizApp';
 import TravelApp from './pages/TravelApp';
 import TodoApp from './pages/TodoApp';
 import CaloriesTrackerApp from './pages/CaloriesTrackerApp';
+import { HashRouter as Router } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
@@ -41,5 +42,8 @@ const router = createBrowserRouter([
 ]);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  <Router>
     <RouterProvider router={router} />
+    <App />
+  </Router>
 );
