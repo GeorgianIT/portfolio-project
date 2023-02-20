@@ -44,7 +44,7 @@ const router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Router basename="/portfolio-project">
+    <Route exact path="/" render={App} />
     <RouterProvider router={router} />
-    <Route exact path="/portfolio-project" render={App} />
   </Router>
 );
