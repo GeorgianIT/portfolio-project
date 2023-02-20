@@ -8,6 +8,11 @@ import QuizApp from './pages/QuizApp';
 import TravelApp from './pages/TravelApp';
 import TodoApp from './pages/TodoApp';
 import CaloriesTrackerApp from './pages/CaloriesTrackerApp';
+import EducationalJourney from './components/EducationalJourney';
+import Hobbies from './components/Hobbies';
+import ThirdSection from './components/ThirdSection';
+import Tehnologies from './components/Tehnologies';
+import HardSkills from './components/HardSkills';
 
 
 const router = createBrowserRouter([
@@ -34,7 +39,39 @@ const router = createBrowserRouter([
   {
     path: "/portfolio-project/calories-tracker",
     element: <CaloriesTrackerApp/>,
-  }
+  },
+  {
+    path: '/portfolio-project/home',
+    element: <FirstSection/>,
+},
+{
+    path: '/portfolio-project/secondsection',
+    element: <SecondSection/>,
+},
+{
+    path: '/portfolio-project/education',
+    element: <EducationalJourney/>,
+},
+{
+  path: '/portfolio-project/education',
+  element: <EducationalJourney/>,
+},
+{
+    path: '/portfolio-project/tehnologies',
+    element: <Tehnologies/>,
+},
+{
+    path: '/portfolio-project/hobbies',
+    element: <Hobbies/>,
+},
+{
+    path: '/portfolio-project/Projects',
+    element: <ThirdSection/>,
+},
+{
+    path: '/portfolio-project/contact',
+    element: <Footer/>,
+},
 ]);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

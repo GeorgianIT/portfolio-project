@@ -31,7 +31,7 @@ const Sidebar = () => {
                 <ul className='list-none flex flex-col justify-end place-items-end lg:mr-12 mr-4 mt-20 flex-1 ;'>
             {navLinks.map((nav, index) => (
                 <li key={nav.id} className={`font-normal cursor-pointer lg:text-[35px] text-[25px] ${index === navLinks.length -1 ? 'mr-0' : 'mb-4'} text-white`}>
-                <a href={process.env.PUBLIC_URL + `${nav.link}`} className={`flex cursor-pointer active:text-slate-500 ${isActive === index ? 'font-bold' : 'text-white'}`} onClick={() => setIsActive(index)}>{nav.title}</a>
+                <a href={process.env.PUBLIC_URL + `${nav.path}`} className={`flex cursor-pointer active:text-slate-500 ${isActive === index ? 'font-bold' : 'text-white'}`} onClick={() => setIsActive(index)}>{nav.title}</a>
               </li>))}
         </ul>
   </div>
