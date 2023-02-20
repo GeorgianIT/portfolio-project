@@ -8,38 +8,35 @@ import QuizApp from './pages/QuizApp';
 import TravelApp from './pages/TravelApp';
 import TodoApp from './pages/TodoApp';
 import CaloriesTrackerApp from './pages/CaloriesTrackerApp';
-import { HashRouter as Router } from "react-router-dom";
+
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/portfolio-project",
     element: <App/>,
   },
   {
-    path: "BMR",
+    path: "/portfolio-project/bmr",
     element: <BmrApp/>,
   },
   {
-    path: "Quiz",
+    path: "/portfolio-project/quiz",
     element: <QuizApp/>,
   },
   {
-    path: "TravelApp",
+    path: "/portfolio-project/travel",
     element: <TravelApp/>,
   },
   {
-    path: "TodoApp",
+    path: "/portfolio-project/todo",
     element: <TodoApp/>,
   },
   {
-    path: "CaloriesTracker",
+    path: "/portfolio-project/calories-tracker",
     element: <CaloriesTrackerApp/>,
   }
 ]);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Router basename="/portfolio-project">
-    <Route exact path="/" render={App} />
-    <RouterProvider router={router} />
-  </Router>
+    <RouterProvider basename="/" router={router} />
 );
