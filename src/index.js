@@ -45,6 +45,6 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Router basename="/portfolio-project">
     <RouterProvider router={router} />
-    <Route path="/" exact component={App} />
+    <Route exact path="/portfolio-project" render={App} />
   </Router>
 );
