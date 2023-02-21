@@ -13,7 +13,9 @@ import Hobbies from './components/Hobbies';
 import ThirdSection from './components/ThirdSection';
 import Tehnologies from './components/Tehnologies';
 import HardSkills from './components/HardSkills';
-
+import FirstSection from './components/FirstSection';
+import SecondSection from './components/SecondSection';
+import Footer from './components/Footer';
 
 const router = createBrowserRouter([
   {
@@ -41,35 +43,35 @@ const router = createBrowserRouter([
     element: <CaloriesTrackerApp/>,
   },
   {
-    path: '/portfolio-project/home',
+    path: '/home',
     element: <FirstSection/>,
 },
 {
-    path: '/portfolio-project/secondsection',
+    path: '/secondsection',
     element: <SecondSection/>,
 },
 {
-    path: '/portfolio-project/education',
+    path: '/education',
     element: <EducationalJourney/>,
 },
 {
-  path: '/portfolio-project/education',
-  element: <EducationalJourney/>,
+  path: '/skills',
+  element: <HardSkills/>,
 },
 {
-    path: '/portfolio-project/tehnologies',
+    path: '/tehnologies',
     element: <Tehnologies/>,
 },
 {
-    path: '/portfolio-project/hobbies',
+    path: '/hobbies',
     element: <Hobbies/>,
 },
 {
-    path: '/portfolio-project/Projects',
+    path: '/Projects',
     element: <ThirdSection/>,
 },
 {
-    path: '/portfolio-project/contact',
+    path: '/contact',
     element: <Footer/>,
 },
 ]);
