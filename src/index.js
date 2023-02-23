@@ -16,6 +16,7 @@ import HardSkills from './components/HardSkills';
 import FirstSection from './components/FirstSection';
 import SecondSection from './components/SecondSection';
 import Footer from './components/Footer';
+import BooksApp from './pages/components/booksapp/BooksApp';
 
 const router = createBrowserRouter([
   {
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
   {
     path: "/portfolio-project/calories-tracker",
     element: <CaloriesTrackerApp/>,
+  },
+  {
+    path: "/portfolio-project/booksapp",
+    element: <BooksApp/>,
   },
   {
     path: '/home',
