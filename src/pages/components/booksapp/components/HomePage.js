@@ -1,26 +1,20 @@
 import React from 'react'
-import { bookBg, readingGuy } from '../booksAssets/index'
-import quotesData from './quotes.json'
-import { useEffect, useState } from 'react'
+// import { bookBg, readingGuy } from '../booksAssets/index'
+// import quotesData from './quotes.json'
+import { useState } from 'react';
 
 const HomePage = () => {
-  const [quotes, setQuotes] = useState([]);
-  useEffect(() => {
-    fetchQuotes();
-  }, []);
-
-  const fetchQuotes = async () => {
-    setQuotes(quotesData);
-  }
 
   return (
-      <div className='w-[100vw] h-[100vh] bg-bookBg'>
-          {/* <div className='w-[50%] h-[100%] bg-white'>
-              <img src={readingGuy} alt='reading guy' className='aspect-auto object-cover w-full h-[100vh]'></img></div> */}
-      <div className='text-white'>
-        {quotes.map((data) =>{
-          return<p>{`${data.quote} - ${data.author}`}</p>
-        })}
+      <div className='w-[100vw] h-[100vh] bg-bookBg flex'>
+      <div className='flex m-auto justify-between w-[45%] h-[30%]'>
+      <div className='text-white text-[35px] '>
+          <span id='content' className='w-[80%]'></span>
+          <h1>author</h1>
+      </div>
+      <div className='text-white text-[50px] font-bold'>
+        <h1>Books Website</h1>
+      </div>
       </div>
     </div>
   )
