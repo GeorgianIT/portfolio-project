@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-project/static/css/main.f144577b.css",
-    "main.js": "/portfolio-project/static/js/main.e3d189d4.js",
+    "main.css": "/portfolio-project/static/css/main.aab698f1.css",
+    "main.js": "/portfolio-project/static/js/main.c52d2407.js",
     "static/media/picture1.jpg": "/portfolio-project/static/media/picture1.d366185550c9f62d1aac.jpg",
     "static/media/Quiz.jpg": "/portfolio-project/static/media/Quiz.0305b4889d54296c9b6b.jpg",
     "static/media/picture3.jpg": "/portfolio-project/static/media/picture3.ea4b95ed650eafa3a47d.jpg",
@@ -26,6 +26,7 @@
     "static/media/AiPhoto2.png": "/portfolio-project/static/media/AiPhoto2.870ac40acd0e547c5637.png",
     "static/media/mountain-fullhd.jpg": "/portfolio-project/static/media/mountain-fullhd.2ca2e43f091871cdb494.jpg",
     "static/media/pexels1.jpg": "/portfolio-project/static/media/pexels1.b408c0db508f2e2a7e79.jpg",
+    "static/media/bookBack.jpg": "/portfolio-project/static/media/bookBack.004221101344b79def0a.jpg",
     "static/media/webdesign.jpg": "/portfolio-project/static/media/webdesign.b26906aa0583f6492fd3.jpg",
     "static/media/mountain-forest.jpg": "/portfolio-project/static/media/mountain-forest.de0330f4a5570b2fd32e.jpg",
     "static/media/forest.jpeg": "/portfolio-project/static/media/forest.bc42c202ad5a7483f4ab.jpeg",
@@ -57,11 +58,11 @@
     "static/media/javascript.svg": "/portfolio-project/static/media/javascript.39b3b23e32a0d35c7b37624685b68a68.svg",
     "static/media/linkedin.svg": "/portfolio-project/static/media/linkedin.8762f6e957e5d6c297b9cbc434ecf218.svg",
     "static/media/icons8-close.svg": "/portfolio-project/static/media/icons8-close.fd78c4283cecb09f2cfe.svg",
-    "main.f144577b.css.map": "/portfolio-project/static/css/main.f144577b.css.map",
-    "main.e3d189d4.js.map": "/portfolio-project/static/js/main.e3d189d4.js.map"
+    "main.aab698f1.css.map": "/portfolio-project/static/css/main.aab698f1.css.map",
+    "main.c52d2407.js.map": "/portfolio-project/static/js/main.c52d2407.js.map"
   },
   "entrypoints": [
-    "static/css/main.f144577b.css",
-    "static/js/main.e3d189d4.js"
+    "static/css/main.aab698f1.css",
+    "static/js/main.c52d2407.js"
   ]
 }
