@@ -1,16 +1,17 @@
 import BMRform from './components/BMRform';
 
 const style = {
-  page: 'flex bg-neutral-300',
-  content: 'w-[60vw] flex flex-col justify-start m-auto my-[10vh] bg-neutral-300 h-[80vh]',
-  title: 'font-bold text-center text-[50px]',
-  description: 'text-[25px]',
-  tablediv: 'flex justify-center',
-  recommandation: 'mt-10 text-center text-[20px]'
+  page: 'flex ',
+  content: 'flex lg:w-[60vw] w-[90vw] flex flex-col justify-start m-auto my-[10vh] lg:h-[80vh] md:h-[100vh] h-full',
+  title: 'font-bold text-center lg:text-[50px] text-[40px]',
+  description: 'lg:text-[25px] text-[18px] text-center',
+  tablediv: 'flex justify-center' ,
+  recommandation: 'mt-10 w-[80%] text-center lg:text-[20px] text-[18px] m-auto'
 }
 
 function BmrApp() {
   return (
+    <div className='bg-slate-300 h-[100vh] overflow-hidden'>
     <div className={style.page}>
       <div className={style.content}>
         <p className={style.title}>BMR Calculator</p>
@@ -20,6 +21,7 @@ function BmrApp() {
         </div>
         <p className={style.recommandation}>Generally, the recommended daily calorie intake is 2,000 calories a day for women and 2,500 for men.</p>
       </div>
+    </div>
     </div>
   );
 }

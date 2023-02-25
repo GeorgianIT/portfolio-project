@@ -4,9 +4,10 @@ import { useState } from 'react'
 
 
 const style = {
-    form: 'mt-10 text-[20px] text-center',
+    form: 'mt-10 text-[20px] text-center m-auto',
     button: 'mt-10 w-full px-6 py-2.5 w-[50%] ml-[25%] mr-[25%] bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out',
-    container: 'w-[40%]',
+    container: 'lg:w-[40%] w-[100%] m-auto',
+    label: 'lg:text-[20px] text-[15px] '
 }
 
 const BMRform = () => {
@@ -39,23 +40,23 @@ const BMRform = () => {
     return (     
     <div className={style.container}>
     <form onSubmit={handleCalculate} className={style.form}>
-            <div className='grid grid-cols-2 gap-4 w-[80%] m-auto'>
-                <label >Age:</label>
-                <input name='age' onChange={handleChange} required className='w-[150px]' type='number' min="15" max="80" />
+            <div className='grid grid-cols-2 gap-4 lg:w-[80%] w-[100%] m-auto'>
+                <label  className={style.label}>Age:</label>
+                <input name='age' onChange={handleChange} required className='w-[140px] min-w-[150px]' type='number' min="15" max="80" />
                 
-                <label>Gender:</label>
+                <label className={style.label}>Gender:</label>
                 <div className='form-groups space-x-2 flex justify-start'>        
-                    <input name='gender' value='Male' onChange={handleChange} type="radio"></input><span>Male</span>
-                    <input name='gender' value='Female' onChange={handleChange} type="radio"></input><span>Female</span>
+                    <input name='gender' value='Male' onChange={handleChange} type="radio"></input><span className={style.label}>Male</span>
+                    <input name='gender' value='Female' onChange={handleChange} type="radio"></input><span className={style.label}>Female</span>
                 </div>
                 
-                <label>Height:</label>
+                <label className={style.label}>Height:</label>
                 <div className='form-groups flex justify-between'>  
-                    <input name='height' onChange={handleChange} required className='w-[150px]' type='number' min="55" max="236" /><span className='text-slate-500'>cm</span>
+                    <input name='height' onChange={handleChange} required className='w-[150px] min-w-[140px]' type='number' min="55" max="236" /><span className='text-slate-500 ml-2'>cm</span>
                 </div>
-                <label>Weight:</label>
+                <label className={style.label}>Weight:</label>
                  <div className='form-groups flex justify-between'>    
-                    <input name='weight' onChange={handleChange} required className='w-[150px]' type='number' min="35" max="635"/><span className='text-slate-500'>kg</span>
+                    <input name='weight' onChange={handleChange} required className='w-[150px] min-w-[140px]' type='number' min="35" max="635"/><span className='text-slate-500 ml-2'>kg</span>
                     </div>
                 </div> 
                 <button type='submit' className={style.button}>Calculate</button>
