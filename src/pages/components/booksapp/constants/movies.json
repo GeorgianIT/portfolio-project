@@ -4,61 +4,78 @@
         "title": "Captain America: Civil War",
         "image": "Captain-America-Civil-War.jpg",
         "id": 1,
-        "imageClass" : "h-full w-full object-cover transition-transform duration-500  group-hover:scale-125",
-        "text": " text-5xl w-[25%] text-white border-b-2 pb-4 border-red-600",
-        "trailerStyle": "text-3xl text-white font-bold pt-4",
         "trailer": "Watch Trailer",
-        "hover":"absolute inset-0 flex translate-y-[80%] flex-col items-start justify-center px-9 text-start transition-transform duration-500 group-hover:translate-y-0",
-        "size" : "col-span-2 w-full group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30"
+        "span" : 1
     },
     {
         "unicKey": 2,
         "title": "Batman vs Superman",
         "image": "batman-v-superman.jpg",
         "id": 2,
-        "imageClass" : "h-full w-full object-cover transition-transform duration-500  group-hover:scale-125",
-        "text": "font-dmserif text-5xl font-bold text-white",
-        "hover":"absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0",
-        "size" : "w-full group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30"
+        "span" : 0
     },
     {
         "unicKey": 3,
-        "title": "Harry Potter",
-        "image": "harry-potter.jpg",
+        "title": "Peaky Blinders",
+        "image": "peaky-blinders.jpg",
         "id": 2,
-        "imageClass" : "h-full w-full object-contain transition-transform duration-500  group-hover:scale-125",
-        "text": "font-dmserif text-5xl font-bold text-white",
-        "hover":"absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0",
-        "size" : "w-full  group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30"
+        "span" : 0
     },
     {
         "unicKey": 4,
-        "title": "The Hobbit",
-        "image": "The-Hobbit.jpg",
+        "title": "The Witcher",
+        "image": "witcher.jpg",
         "id": 2,
-        "imageClass" : "h-full w-full object-contain transition-transform duration-500  group-hover:scale-125",
-        "text": "font-dmserif text-5xl font-bold text-white",
-        "hover":"absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0",
-        "size" : "w-full group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30"
+        "span" : 0
     },
     {
         "unicKey": 5,
-        "title": "Creed",
-        "image": "Creed.jpg",
-        "id": 1,
-        "imageClass" : "h-full w-full object-contain transition-transform duration-500  group-hover:scale-125",
-        "text": "font-dmserif text-5xl font-bold text-white",
-        "hover":"absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0",
-        "size" : "w-full group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30"
+        "title": "Harry Potter",
+        "image": "harry-potter.jpg",
+        "id": 2,
+        "span" : 2
     },
     {
         "unicKey": 6,
+        "title": "The Hobbit",
+        "image": "The-Hobbit.jpg",
+        "id": 2,
+        "span" : 0
+    },
+    {
+        "unicKey": 7,
+        "title": "Creed",
+        "image": "Creed.jpg",
+        "id": 1,
+        "span" : 0
+    },
+    {
+        "unicKey": 9,
+        "title": "The Avengers: Endgame",
+        "image": "endgame.jpg",
+        "id": 1,
+        "span" : 0
+    },
+    {
+        "unicKey": 10,
+        "title": "The Queens Gambit",
+        "image": "queens-gambit.jpg",
+        "id": 1,
+        "span" : 0
+    },
+    {
+        "unicKey": 11,
+        "title": "Hobbs & Shaw",
+        "image": "fast-and-furious.png",
+        "id": 1,
+        "span" : 0
+    },
+    {
+        "unicKey": 8,
         "title": "Game of Thrones",
         "image": "game-of-thrones.jpg",
         "id": 3,
-        "imageClass" : "h-full w-full object-contain transition-transform duration-500  group-hover:scale-125",
-        "text": "font-dmserif text-5xl font-bold text-white",
-        "hover":"absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0",
-        "size" : "w-full group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30"
+        "trailer": "Watch Trailer",
+        "span" : 1
     }
 ]

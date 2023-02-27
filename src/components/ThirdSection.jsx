@@ -32,7 +32,7 @@ const ThirdSection = () => {
       <div className='flex flex-col items-center bg-black h-auto m-auto'>
       <p className='text-[40px] text-white text-center font-bold mt-14 mb-14'>Projects </p>
         <Filter setActiveCategory={setActiveCategory} activeCategory={activeCategory} setFiltered={setFiltered} setfilteredPDF={setfilteredPDF} allProjects={allProjects} allPDFProjects={allPDFProjects} />
-      <div  className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 flex-col gap-10 w-auto w-auto mx-40 mb-20'>
+      <div  className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 flex-col lg:w-auto lg:w-auto w-[70%] m-auto lg:mx-40 lg:mb-20'>
           {filtered.map((data) => {
             return<Project key={data.unicKey} data={data} />
           })}

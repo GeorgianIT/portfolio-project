@@ -10,7 +10,7 @@ const Project = ({ data }) => {
     animate={{ transform: "scale(1)" }}
     exit={{ transform: "scale(0)" }}
     transition={{ duration: 0.5 }} className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:rounded-xl hover:shadow-black/30">
-      <div className="h-96 w-72">
+      <div className="lg:h-96 lg:w-72 h-auto w-auto">
         <img className="h-full w-full rounded-xl object-cover transition-transform duration-500  group-hover:scale-125" src={require(`../assets/${data.image}`)} />
       </div>
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
