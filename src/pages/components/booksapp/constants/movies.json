@@ -1,0 +1,50 @@
+[
+    {   
+        "unicKey": 1,
+        "title": "Captain America: Civil War",
+        "image": "Captain-America-Civil-War.jpg",
+        "id": 1,
+        "hover":"absolute inset-0 flex translate-x-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-x-0",
+        "size" : "w-full col-span-2 group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:rounded-xl hover:shadow-black/30"
+    },
+    {
+        "unicKey": 2,
+        "title": "Batman vs Superman",
+        "image": "batman-v-superman.jpg",
+        "id": 2,
+        "hover":"absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0",
+        "size" : "w-full group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:rounded-xl hover:shadow-black/30"
+    },
+    {
+        "unicKey": 3,
+        "title": "Harry Potter",
+        "image": "harry-potter.jpg",
+        "id": 2,
+        "hover":"absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0",
+        "size" : "w-full  group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:rounded-xl hover:shadow-black/30"
+    },
+    {
+        "unicKey": 4,
+        "title": "The Hobbit",
+        "image": "The-Hobbit.jpg",
+        "id": 2,
+        "hover":"absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0",
+        "size" : "w-full group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:rounded-xl hover:shadow-black/30"
+    },
+    {
+        "unicKey": 5,
+        "title": "Creed",
+        "image": "Creed.jpg",
+        "id": 1,
+        "hover":"absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0",
+        "size" : "w-full  group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:rounded-xl hover:shadow-black/30"
+    },
+    {
+        "unicKey": 6,
+        "title": "Game of Thrones",
+        "image": "game-of-thrones.jpg",
+        "id": 2,
+        "hover":"absolute inset-0 flex translate-y-[80%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0",
+        "size" : "w-full col-span-2 group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:rounded-xl hover:shadow-black/30"
+    }
+]
