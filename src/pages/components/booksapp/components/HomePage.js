@@ -25,7 +25,7 @@ const HomePage = () => {
     <div id='projects' className='flex relative lg:flex-row flex-col items-center bg-black h-auto'>
       <div className='flex flex-col items-center bg-black h-auto m-auto'>
         <MovieFilter setActiveCategory={setActiveCategory} activeCategory={activeCategory} setFiltered={setFiltered} allProjects={allProjects} />
-      <div  className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-0 flex-col gap-10 w-auto w-auto mx-40 mb-20'>
+      <div  className='grid grid-cols-2 gap-0 flex-col w-[99%]'>
           {filtered.map((data) => {
             return<Movie key={data.unicKey} data={data} />
           })}
