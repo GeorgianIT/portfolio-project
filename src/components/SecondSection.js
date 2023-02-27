@@ -29,7 +29,6 @@ const SecondSection = () => {
           <HardSkills/>
           <Tehnologies />
           <SoftSkills/>
-          <Hobbies />
       </div>
     </div>
     </div>
