@@ -14,9 +14,9 @@ const Movie = ({ data }) => {
         <img className={"h-auto w-auto object-cover transition-transform duration-500  group-hover:scale-125"} src={require(`../booksAssets/${data.image}`)} />
       </div>
       {/* <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div> */}
-      <div className={`absolute inset-0 flex translate-y-[80%] flex-col justify-center px-9 text-start transition-transform duration-500 group-hover:translate-y-0 ${ data.span ===1 ? " items-start" :" items-center"}`}>
-        <a href={data.linkName} target='_blank' className={` ${data.span === 1 ? "lg:text-5xl text-md lg:w-[25%] w-[40%] text-white border-b-2 lg:pb-4 pb-2 border-red-600" : "font-dmserif lg:text-5xl text-md font-bold text-white"}`}>{data.title}</a>
-        <a href={data.link} target='_blank' className="lg:text-3xl text:sm text-white font-bold lg:pt-4 pt-2">{data.trailer}</a>
+      <div className={`absolute inset-0 flex translate-y-[100%] flex-col justify-center px-9 text-start transition-transform duration-500 group-hover:translate-y-0 ${ data.span ===1 ? " items-start" :" items-center"}`}>
+        <a href={data.linkName} target='_blank' className={` ${data.span === 1 ? "lg:text-5xl text-xs lg:w-[25%] w-[40%] text-white border-b-2 lg:pb-4 pb-2 border-red-600" : "font-dmserif text-center lg:text-5xl text-xs font-bold text-white"}`}>{data.title}</a>
+        <a href={data.link} target='_blank' className="lg:text-3xl text:xs text-white font-bold lg:pt-4 pt-2">{data.trailer}</a>
       </div>
     </motion.div>
   )
