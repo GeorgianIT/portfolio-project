@@ -4,13 +4,15 @@
         "id": 3,
         "title": "Project ASCN",
         "path": "/#projects",
-        "image": "ASCN.png"
+        "image": "ASCN.png",
+        "fetch": "fetchASCN"
     },
     {
         "unicKey": 7,
         "id": 3,
         "title": "Code Coverter",
         "path": "/#projects",
+        "fetch": "fetchCodeConverter",
         "image": "code_converter.png"
     },
     {
@@ -18,15 +20,16 @@
         "id": 3,
         "title": "Digital System Using Bistabile Type D and FPLA",
         "path": "/#projects",
-        "image": "FPLA.png"
+        "image": "FPLA.png",
+        "fetch": "fetchFPLA"
     }
     ,
     {
         "unicKey": 9,
         "id": 3,
         "title": "Insulin regulator",
-        "file": "/ProiectASCN.pdf",
         "path": "/#projects",
+        "fetch": "fetchInsulin",
         "image": "insulin.png"
     }
 ]

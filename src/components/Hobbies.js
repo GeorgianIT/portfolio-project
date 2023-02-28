@@ -7,10 +7,10 @@ const Hobbies = () => {
   return (<>
     <div id='hobbies'>
     <TitleText title='Hobbies' textStyles={'font-bold text-[40px] mt-14 mb-14 text-center'} />
-        <div className="flex min-h-auto mb-14 lg:w-[80%] md:w-[40%] w-[245px] w-auto m-auto items-center justify-center">
+        <div className="flex min-h-auto mb-14 lg:w-[80%] md:w-[40%] sm:w[80%] w-[245px] w-auto m-auto items-center justify-center">
   <div className="grid grid-cols-1 gap-4 md:grid-cols-1 rounded-xl lg:grid-cols-3">
-    <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:rounded-xl hover:shadow-black/30">
-            <div className="lg:h-96 lg:w-[245px]">
+    <div className="group relative cursor-pointer lg:w-[100%] w-[70%] m-auto items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:rounded-xl hover:shadow-black/30">
+            <div className="lg:h-96 lg:w-[245px] ">
               {/* w-96 = 384px 72=288px */}
         <img className="h-full w-full rounded-xl object-cover transition-transform duration-500 group-hover:rotate-2 group-hover:scale-125" src={forest} alt="" />
       </div>
@@ -23,7 +23,7 @@ const Hobbies = () => {
             </Link>
       </div>
     </div>
-    <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:rounded-xl hover:shadow-black/30">
+    <div className="group relative cursor-pointer lg:w-[100%] w-[70%] m-auto items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:rounded-xl hover:shadow-black/30">
       <div className="lg:h-96 lg:w-[245px]">
         <img className="h-full w-full rounded-xl  object-cover transition-transform duration-500 group-hover:rotate-2 group-hover:scale-125" src={editor} alt="" />
       </div>
@@ -35,7 +35,7 @@ const Hobbies = () => {
             <button className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">Check</button></a>
       </div>
     </div>
-    <div className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:rounded-xl hover:shadow-black/30">
+    <div className="group relative cursor-pointer lg:w-[100%] w-[70%] m-auto items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:rounded-xl hover:shadow-black/30">
       <div className="lg:h-96 lg:w-[245px]">
         <img className="h-full w-full rounded-xl object-cover transition-transform duration-500 group-hover:rotate-2 group-hover:scale-125" src={netflix} alt="" />
       </div>

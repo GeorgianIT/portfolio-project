@@ -18,11 +18,11 @@ const FirstSection = () => {
           <img src={aiphoto} alt='photo' className='aspect-auto object-cover w-full h-[100vh]' />
           </div>
         <div className='bg-black flex-1 w-1/2 py-20 h-[100vh] text-white'>
-              <div className='mt-64 ml-20 pb-5 w-9/12 border-b border-gray'>
-                  <TitleText title='Tudor' textStyles={'lg:text-[50px] text-[40px] font-bold'}/>
-                  <TitleText  title='Georgian-Iulian' textStyles={'lg:text-[50px] text-[40px]'}/>
+              <div className='mt-64 lg:ml-20 md:ml-20 ml-5 pb-5 w-9/12 border-b border-gray'>
+                  <TitleText title='Tudor' textStyles={'lg:text-[50px] text-[35px] font-bold'}/>
+                  <TitleText  title='Georgian-Iulian' textStyles={'lg:text-[50px] text-[35px]'}/>
               </div>
-              <div className='flex flex-col lg:flex-row justify-between w-9/12 ml-20'>
+              <div className='flex flex-col lg:flex-row justify-between w-9/12 md:ml-20 ml-5 pb-5'>
               <motion.div
                   variants={staggerContainer}
                   initial='hidden'

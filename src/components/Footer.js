@@ -6,7 +6,7 @@ const Footer = () => {
   return (
       <div id='contact' className='w-full snap-end bg-neutral-900 h-[20vh]  flex justify-center'>
           <div className='w-[70%]'>
-              <p className='text-white pt-[5vh] mb-5'>Would you like to get my CV in PDF?</p>
+              <p className='text-white pt-[5vh] lg:text-md text-sm mb-5'>Would you like to get my CV in PDF?</p>
               
         <div className='flex justify-between'>
           <button href='#' onClick={onButtonClick} className='rounded-full bg-neutral-500 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60'>Download CV</button>
