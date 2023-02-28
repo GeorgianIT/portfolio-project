@@ -5,12 +5,14 @@
         "image": "Captain-America-Civil-War.jpg",
         "id": 1,
         "trailer": "Watch Trailer",
+        "link": "https://www.youtube.com/watch?v=dKrVegVI0Us&ab_channel=MarvelEntertainment",
         "span" : 1
     },
     {
         "unicKey": 2,
         "title": "Batman vs Superman",
         "image": "batman-v-superman.jpg",
+        "linkName": "https://www.youtube.com/watch?v=0WWzgGyAH6Y&ab_channel=WarnerBros.Pictures",
         "id": 2,
         "span" : 0
     },
@@ -18,6 +20,7 @@
         "unicKey": 3,
         "title": "Peaky Blinders",
         "image": "peaky-blinders.jpg",
+        "linkName": "https://www.youtube.com/watch?v=oVzVdvGIC7U&ab_channel=Alextvshows",
         "id": 2,
         "span" : 0
     },
@@ -25,6 +28,7 @@
         "unicKey": 4,
         "title": "The Witcher",
         "image": "witcher.jpg",
+        "linkName": "https://www.youtube.com/watch?v=cSqi-8kAMmM&ab_channel=TheWitcherNetflix",
         "id": 2,
         "span" : 0
     },
@@ -32,6 +36,8 @@
         "unicKey": 5,
         "title": "Harry Potter",
         "image": "harry-potter.jpg",
+        "trailer": "Watch Trailer",
+        "link": "https://www.youtube.com/watch?v=gHe3sul7C_E&ab_channel=RottenTomatoesTrailers",
         "id": 2,
         "span" : 2
     },
@@ -39,6 +45,7 @@
         "unicKey": 6,
         "title": "The Hobbit",
         "image": "The-Hobbit.jpg",
+        "linkName": "https://www.youtube.com/watch?v=JTSoD4BBCJc&ab_channel=RottenTomatoesComingSoon",
         "id": 2,
         "span" : 0
     },
@@ -46,6 +53,7 @@
         "unicKey": 7,
         "title": "Creed",
         "image": "Creed.jpg",
+        "linkName": "https://www.youtube.com/watch?v=Uv554B7YHk4&ab_channel=WarnerBros.Pictures",
         "id": 1,
         "span" : 0
     },
@@ -53,6 +61,7 @@
         "unicKey": 9,
         "title": "The Avengers: Endgame",
         "image": "endgame.jpg",
+        "linkName": "https://www.youtube.com/watch?v=TcMBFSGVi1c&ab_channel=MarvelEntertainment",
         "id": 1,
         "span" : 0
     },
@@ -60,6 +69,7 @@
         "unicKey": 10,
         "title": "The Queens Gambit",
         "image": "queens-gambit.jpg",
+        "linkName": "https://www.youtube.com/watch?v=oZn3qSgmLqI&ab_channel=RottenTomatoesTV",
         "id": 1,
         "span" : 0
     },
@@ -67,6 +77,7 @@
         "unicKey": 11,
         "title": "Hobbs & Shaw",
         "image": "fast-and-furious.png",
+        "linkName": "https://www.youtube.com/watch?v=HZ7PAyCDwEg&ab_channel=TheFastSaga",
         "id": 1,
         "span" : 0
     },
@@ -74,6 +85,7 @@
         "unicKey": 8,
         "title": "Game of Thrones",
         "image": "game-of-thrones.jpg",
+        "link": "https://www.youtube.com/watch?v=bjqEWgDVPe0&ab_channel=HBOUK",
         "id": 3,
         "trailer": "Watch Trailer",
         "span" : 1
