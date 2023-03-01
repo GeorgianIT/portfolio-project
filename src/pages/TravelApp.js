@@ -13,8 +13,8 @@ function TravelApp() {
     <div className='snap-y snap-mandatory scroll-smooth h-screen w-screen'>
       <Navbar/>
       <Title />
-      {/* <Exploring/>
-      <SectionTwo /> */}
+       <Exploring/>
+      {/*<SectionTwo /> */}
       <ThirdSection/>
       <Footer />
     </div>

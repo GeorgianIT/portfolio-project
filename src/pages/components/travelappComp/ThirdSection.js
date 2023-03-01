@@ -45,15 +45,17 @@ const ThirdSection = () => {
   }
 
   return (
-    <div className='bg-black'>
-      <input className='bg-white'
-        type="file"
-        onChange={(event) => {
-          setImageUpload(event.target.files[0]);
-        }}
-      />
-      <button onClick={uploadFile} className='bg-white'> Upload Image</button>
-
+    <div className='bg-black pt-10'>
+      <p className='text-white text-center pb-5 lg:text-xl text-sm'>You can upload your own photo to our database right below</p>
+      <div className='flex m-auto justify-items-center lg:w-[30%] md:w-[70%] w-[100%] pb-20'>
+          <input className='bg-white m-auto'
+            type="file"
+            onChange={(event) => {
+              setImageUpload(event.target.files[0]);
+            }}
+          />
+          <button onClick={uploadFile} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"> Upload Image</button>
+      </div>
       <div className={model ? "model open" : "model"}>
         <img src={tempimgSrc} />
         <CloseIcon onClick={() => setModel(false)} /> 

@@ -3,10 +3,13 @@
     -webkit-column-count: 3;
     -moz-column-count: 3;
     column-count: 3;
-    -webkit-column-width: 33%;
-    -moz-column-width: 33%;
-    column-width: 33%;
+    -webkit-column-width: 30%;
+    -moz-column-width: 30%;
+    column-width: 30%;
     padding: 0 12px;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 20px;
 }
 
 .gallery .pics{

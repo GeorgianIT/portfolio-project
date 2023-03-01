@@ -4,7 +4,7 @@ import github2 from '../assetsTravelApp/github2.svg'
 
 const Footer = () => {
   return (
-      <div id='footer' className='w-full snap-start bg-neutral-900 h-[20vh]  flex justify-center'>
+      <div id='footer' className='w-full snap-start bg-neutral-900 h-[20vh] flex justify-center'>
           <div className='w-[70%]'>
               <p className='text-white pt-[5vh] mb-5'>Would you like to get my CV in PDF?</p>
               
