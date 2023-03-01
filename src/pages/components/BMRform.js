@@ -6,9 +6,9 @@ import { useState } from 'react'
 const style = {
     form: 'mt-10 text-[20px] text-center m-auto',
     button: 'mt-10 w-[30%] px-6 py-2.5 w-[50%] ml-[25%] mr-[25%] bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out',
-    container: 'lg:w-[40%] w-[100%] m-auto',
+    container: 'lg:w-[60%] md:w-[70%] w-[100%] m-auto',
     label: 'lg:text-[15px] text-[15px] ',
-    genders : 'flex lg:text-[15px] text-[15px] '
+    genders : 'flex  lg:text-[15px] text-[15px] '
 }
 
 const BMRform = () => {

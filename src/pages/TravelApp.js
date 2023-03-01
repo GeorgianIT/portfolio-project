@@ -5,15 +5,18 @@ import Footer from './components/travelappComp/Footer';
 import Navbar from './components/travelappComp/Navbar'
 import Exploring from "./components/travelappComp/Exploring";
 import '../index.css'
+import ThirdSection from "./components/travelappComp/ThirdSection";
+
 
 function TravelApp() {
   return (
     <div className='snap-y snap-mandatory scroll-smooth h-screen w-screen'>
       <Navbar/>
       <Title />
-      <Exploring/>
-      <SectionTwo />
-      <Footer/>
+      {/* <Exploring/>
+      <SectionTwo /> */}
+      <ThirdSection/>
+      <Footer />
     </div>
   );
 }

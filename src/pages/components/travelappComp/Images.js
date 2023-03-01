@@ -32,18 +32,18 @@ const Images = ({ data }) => {
 
   const onClickPopUp = {
     containerClick: 'flex group/item  min-w-[900px] w-[900px] scale-[110%] mr-10 relative hover:cursor-pointer items-center justify-center ',
-    containerDefault: "flex group/item min-w-[300px] max-h-[408.3] w-[300px] hover:scale-[110%] relative hover:cursor-pointer items-center justify-center ",
-    imageContainer: 'h-full w-50% flex flex-row gap-4',
-    comments: "hidden bg-white w-[30%] ml-4 h-full overflow-scroll", 
-    commentsClicked: " bg-white w-[50%] ml-4 h-full rounded-xl text-black overflow-scroll ", 
+    containerDefault: "flex group/item min-w-[300px] max-h-[408.3] w-[300px] hover:scale-[110%] relative  hover:cursor-pointer items-center justify-center ",
+    imageContainer: 'h-full w-50% flex flex-row gap-4 transition-transform transition duration-350 ease-in-out',
+    comments: "hidden bg-white w-[30%] ml-4 h-full scrollbar-hide overflow-scroll overflow-hidden", 
+    commentsClicked: "bg-white w-[30%]  ml-4 h-full rounded-xl text-black scrollbar-hide overflow-hidden overflow-scroll", 
     likeSection: 'invisible group-hover/item:visible flex bg-white h-[10%] w-full rounded-xl',
     likeSectionClicked: 'invisible flex bg-white h-[10%] w-full rounded-xl',
     fullScreenButton: 'invisible group-hover/item:visible mt-2 ml-[90%] absolute',
     fullScreenButtonClicked: 'invisible ',
     fullScreenClosed: 'invisible',
     fullScreenClosedClicked: 'visible group-hover/item:visible mt-2 mr-0 relative',
-    image: "select-none h-[100%] w-[100%] rounded-xl object-cover ",
-    imageClicked: "select-none origin-right h-[100%] w-[60%] rounded-xl object-cover ",
+    image: "select-none h-[100%] w-[100%] rounded-xl object-cover transition-transform transition duration-350 ease-in-out",
+    imageClicked: "select-none origin-right h-[100%] w-[60%] rounded-xl object-cover transition-transform transition duration-350 ease-in-out",
     lostFocus: "h-[60%] w-full flex flex-col gap-4 overflow-hidden",
     focus: "h-[60%] w-full flex flex-col gap-4"
   }
