@@ -1,6 +1,6 @@
 import Title from "../travelappComp/Title";
 import Footer from "../travelappComp/Footer";
-import SectionTwo from "../travelappComp/SectionTwo";
+import Exploring from "../travelappComp/Exploring";
 
 export const navLinks = [
     {
@@ -15,7 +15,7 @@ export const navLinks = [
         title: "Discover",
         link: "#discover",
         path: '/discover',
-        element: <SectionTwo/>,
+        element: <Exploring/>,
     },
     {
         id: "footer",

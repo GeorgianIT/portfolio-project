@@ -1,5 +1,3 @@
-import { BrowserRouter, Route,Routes, Link } from "react-router-dom";
-import SectionTwo from './components/travelappComp/SectionTwo';
 import Title from './components/travelappComp/Title';
 import Footer from './components/travelappComp/Footer';
 import Navbar from './components/travelappComp/Navbar'
@@ -13,8 +11,7 @@ function TravelApp() {
     <div className='snap-y snap-mandatory scroll-smooth h-screen w-screen'>
       <Navbar/>
       <Title />
-       <Exploring/>
-      {/*<SectionTwo /> */}
+      <Exploring/>
       <ThirdSection/>
       <Footer />
     </div>
