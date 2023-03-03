@@ -1,4 +1,4 @@
-import Title from "../travelappComp/Title";
+import Title from '../travelappComp/Title';
 import Footer from "../travelappComp/Footer";
 import Exploring from "../travelappComp/Exploring";
 

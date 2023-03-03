@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
-import BmrApp from './pages/BmrApp';
-import QuizApp from './pages/QuizApp';
-import TravelApp from './pages/TravelApp';
-import TodoApp from './pages/TodoApp';
-import CaloriesTrackerApp from './pages/CaloriesTrackerApp';
+import BmrApp from './pages/BMR/BmrApp';
+import QuizApp from './pages/Quizz/QuizApp';
+import TravelApp from './pages/Travel/TravelApp';
+import TodoApp from './pages/ToDo/TodoApp';
+import CaloriesTrackerApp from './pages/CaloriesTracker/CaloriesTrackerApp';
 import EducationalJourney from './components/EducationalJourney';
 import Hobbies from './components/Hobbies';
 import ThirdSection from './components/ThirdSection';
@@ -16,7 +16,7 @@ import HardSkills from './components/HardSkills';
 import FirstSection from './components/FirstSection';
 import SecondSection from './components/SecondSection';
 import Footer from './components/Footer';
-import Movies from './pages/components/booksapp/Movies';
+import Movies from './pages/Movies/Movies';
 
 const router = createBrowserRouter([
   {
