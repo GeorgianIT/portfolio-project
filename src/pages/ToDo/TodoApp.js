@@ -60,7 +60,7 @@ function TodoApp() {
   return (
     <>
     <BackButton/>
-    <div className='h-screen w-screen p-4 bg-gradient-to-r from-[#2F80ED] to-[#1CB5E0]'>
+    <div className='h-screen w-screen p-4 bg-gradient-to-r lg:pt-4 pt-20 from-[#2F80ED] to-[#1CB5E0]'>
       <div className={style.container}>
         <h3 className={style.heading}>Todo App</h3>
         <form onSubmit={createTodo} className={style.form}>
