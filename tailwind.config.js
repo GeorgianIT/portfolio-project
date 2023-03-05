@@ -8,7 +8,7 @@ module.exports = {
       backgroundImage: {
         'mRoad': "url('../src/pages/components/assetsTravelApp/photoshop.png')",
         'photoshop': "url('../src/pages/components/assetsTravelApp/final2.png')",
-        'bridge': "url('../src/pages/components/assetsTravelApp/bridge.jpg')",
+        'bridge': "url('../src/pages/Travel/assetsTravelApp/bridge.jpg')",
         'bookBg' : "url('../src/pages/components/booksapp/booksAssets/bookBack.jpg')"
       },
     },

@@ -1,4 +1,5 @@
 import BMRform from './components/BMRform';
+import BackButton from '../BackButton';
 
 const style = {
   page: 'flex ',
@@ -11,6 +12,8 @@ const style = {
 
 function BmrApp() {
   return (
+    <>
+    <BackButton/>
     <div className='bg-slate-300 h-[100vh] overflow-hidden'>
     <div className={style.page}>
       <div className={style.content}>
@@ -22,7 +25,8 @@ function BmrApp() {
         <p className={style.recommandation}>Generally, the recommended daily calorie intake is 2,000 calories a day for women and 2,500 for men.</p>
       </div>
     </div>
-    </div>
+      </div>
+    </>
   );
 }
 

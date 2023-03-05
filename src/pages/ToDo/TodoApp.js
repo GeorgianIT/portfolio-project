@@ -2,7 +2,8 @@ import Todo from './components/Todo'
 import { AiOutlinePlus } from 'react-icons/ai'
 import { useState, useEffect } from 'react';
 import { db } from '../Travel/firebase'
-import {query, collection, onSnapshot, updateDoc, doc, addDoc, deleteDoc} from 'firebase/firestore'
+import { query, collection, onSnapshot, updateDoc, doc, addDoc, deleteDoc } from 'firebase/firestore'
+import BackButton from '../BackButton';
 
 const style = {
   container: 'bg-slate-100 max-w-[500px] w=full m-auto rounded-md shadow-xl p-4',
@@ -57,6 +58,8 @@ function TodoApp() {
 
 
   return (
+    <>
+    <BackButton/>
     <div className='h-screen w-screen p-4 bg-gradient-to-r from-[#2F80ED] to-[#1CB5E0]'>
       <div className={style.container}>
         <h3 className={style.heading}>Todo App</h3>
@@ -78,7 +81,8 @@ function TodoApp() {
         {todos.length<1? null : <p className={style.count}>{`You have ${todos.length} todos`}</p> }
         
       </div>
-    </div>
+      </div>
+    </>
   );
 }
 
