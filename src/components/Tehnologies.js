@@ -42,7 +42,7 @@ useEffect(() => {
                 <img src={tailwind} className='m-auto' />
                 <p className='text-center'>Tailwind CSS</p>
               </div>
-            </motion.div>
+        </motion.div>           
       </div>
     </div>
   )

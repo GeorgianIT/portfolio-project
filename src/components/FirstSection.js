@@ -32,7 +32,9 @@ const FirstSection = () => {
                   <TypingText title={'Junior Frontend Developer'} textStyles='text-start lg:text-[30px] text-[20px]' />
             </motion.div>  
             <div className=' w-90% flex justify-start gap-3 pt-5'>
-                <a href='https://www.linkedin.com/in/georgian-tudor/' target='_blank'><img src={linkedin} alt='linkedin' className='w-[45px]' /></a>                  
+                  {/* <a href='https://www.linkedin.com/in/georgian-tudor/' target='_blank'>*/}
+                  
+                <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="HORIZONTAL" data-vanity="georgian-tudor" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://ro.linkedin.com/in/georgian-tudor/en?trk=profile-badge" target='_blank'><img src={linkedin} alt='linkedin' className='w-[45px]' /></a></div>                   
                 <a href='https://github.com/GeorgianIT' target='_blank' ><img src={github2} alt='github' className='w-[44px]' /></a>      
             </div>
           </div> 
