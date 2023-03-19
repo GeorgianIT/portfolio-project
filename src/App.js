@@ -15,7 +15,7 @@ function App() {
       {/* <Contact/> */}
       {/* Second section */}
       <SecondSection />
-      <Hobbies />
+      {/* <Hobbies /> */}
       {/* Third section */}
       <ThirdSection />
       {/* Footer */}

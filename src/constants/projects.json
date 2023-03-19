@@ -1,27 +1,48 @@
 [
     {   
         "unicKey": 1,
+        "id": 4,
+        "title": "Travel Website",
+        "path": "/portfolio-project/travel",
+        "image": "forest.jpeg"
+    },
+    {   
+        "unicKey": 2,
+        "id": 5,
+        "title": "Coffee Shop",
+        "path": "https://georgianit.github.io/coffee-shop/",
+        "image": "chemex.jpg"
+    },
+    {   
+        "unicKey": 3,
+        "id": 4,
+        "title": "Movies and Series",
+        "path": "/portfolio-project/movies",
+        "image": "movies.jpg"
+    },
+    {   
+        "unicKey": 4,
         "id": 1,
         "title": "ToDo List",
         "path": "/portfolio-project/todo",
         "image": "todoportret.jpg"
     },
     {
-        "unicKey": 3,
+        "unicKey": 5,
         "id": 1,
         "title": "BMR Calculator",
         "path": "/portfolio-project/bmr",
         "image": "BMR.jpeg"
     },
     {
-        "unicKey": 4,
+        "unicKey": 6,
         "id": 1,
         "title": "Calories Tracker",
         "path": "/portfolio-project/calories-tracker",
         "image": "FitnessCalories.jpeg"
     },
     {
-        "unicKey": 5,
+        "unicKey": 7,
         "id": 1,
         "title": "Quiz App",
         "path": "/portfolio-project/quiz",

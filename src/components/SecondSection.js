@@ -12,7 +12,7 @@ import HardSkills from './HardSkills';
 
 const SecondSection = () => {
   return (
-    <div className=' w-full h-auto flex justify-center mt-20'>
+    <div className=' w-full h-auto flex justify-center mt-20 mb-20'>
       <div className=' h-full lg:w-1/2 md:w-2/3 w-3/4'>
         <div className='w-[80%] text-[25px] m-auto'>
           <p id='about' className='text-[40px] text-center font-bold mb-14'>About me</p>
