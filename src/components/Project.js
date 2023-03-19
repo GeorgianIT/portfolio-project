@@ -3,8 +3,8 @@ import { motion } from "framer-motion"
 import { Link } from "react-router-dom";
 
 const Project = ({ data }) => {
-  return (
 
+  return (
     <motion.div layout
     initial={{ transform: "scale(0)" }}
     animate={{ transform: "scale(1)" }}
@@ -19,8 +19,9 @@ const Project = ({ data }) => {
         {/* <p className="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">I plan to build a travels project with places that I want to visit</p> */}
         {/* <a href={process.env.PUBLIC_URL + `${data.path}`} target='_blank' download={`${data.title}.pdf`} className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See Project</a> */}
         <Link to={`${data.path}`} className="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">
-          See Project
+        See Project
         </Link>
+        
       </div>
     </motion.div>
   )
