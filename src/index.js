@@ -33,7 +33,7 @@ const router = createBrowserRouter([
   //   element: <Navigate to='/error-page/'/>,
   // },
   {
-    path: "/coffee-shop/",
+    path: "/error-page/",
     element: <ErrorPage />,
   },
   {
