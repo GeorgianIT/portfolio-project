@@ -43,13 +43,13 @@ export const navLinks = [
         path: '/tehnologies',
         element: <Tehnologies/>,
     },
-    {
-        id: "hobbies",
-        title: "Hobbies",
-        link: "#hobbies",
-        path: '/hobbies',
-    element: <Hobbies/>,
-    },
+    // {
+    //     id: "hobbies",
+    //     title: "Hobbies",
+    //     link: "#hobbies",
+    //     path: '/hobbies',
+    // element: <Hobbies/>,
+    // },
     {
         id: "project",
         title: "Projects",

@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
+import { createBrowserRouter, RouterProvider, Route, Navigate } from "react-router-dom";
 import BmrApp from './pages/BMR/BmrApp';
 import QuizApp from './pages/Quizz/QuizApp';
 import TravelApp from './pages/Travel/TravelApp';
@@ -17,6 +17,7 @@ import FirstSection from './components/FirstSection';
 import SecondSection from './components/SecondSection';
 import Footer from './components/Footer';
 import Movies from './pages/Movies/Movies';
+import ErrorPage from './components/ErrorPage';
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,14 @@ const router = createBrowserRouter([
   {
     path: "/portfolio-project/bmr",
     element: <BmrApp/>,
+  },
+  // {
+  //   path: "/coffee-shop/",
+  //   element: <Navigate to='/error-page/'/>,
+  // },
+  {
+    path: "/coffee-shop/",
+    element: <ErrorPage />,
   },
   {
     path: "/portfolio-project/quiz",
