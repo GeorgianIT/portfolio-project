@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-project/static/css/main.6bf95545.css",
-    "main.js": "/portfolio-project/static/js/main.e1dfedfb.js",
+    "main.css": "/portfolio-project/static/css/main.15f6ddb9.css",
+    "main.js": "/portfolio-project/static/js/main.a007019f.js",
     "static/media/Quiz.jpg": "/portfolio-project/static/media/Quiz.0305b4889d54296c9b6b.jpg",
     "static/media/readingGuy.png": "/portfolio-project/static/media/readingGuy.491110904394a42fe164.png",
     "static/media/fast-and-furious.png": "/portfolio-project/static/media/fast-and-furious.32471b2d9379d14ffe04.png",
@@ -60,11 +60,11 @@
     "static/media/javascript.svg": "/portfolio-project/static/media/javascript.39b3b23e32a0d35c7b37624685b68a68.svg",
     "static/media/linkedin.svg": "/portfolio-project/static/media/linkedin.8762f6e957e5d6c297b9cbc434ecf218.svg",
     "static/media/icons8-close.svg": "/portfolio-project/static/media/icons8-close.fd78c4283cecb09f2cfe.svg",
-    "main.6bf95545.css.map": "/portfolio-project/static/css/main.6bf95545.css.map",
-    "main.e1dfedfb.js.map": "/portfolio-project/static/js/main.e1dfedfb.js.map"
+    "main.15f6ddb9.css.map": "/portfolio-project/static/css/main.15f6ddb9.css.map",
+    "main.a007019f.js.map": "/portfolio-project/static/js/main.a007019f.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bf95545.css",
-    "static/js/main.e1dfedfb.js"
+    "static/css/main.15f6ddb9.css",
+    "static/js/main.a007019f.js"
   ]
 }
