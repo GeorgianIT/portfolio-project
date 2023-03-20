@@ -5,10 +5,10 @@ export const quiz = {
     perQuestionScore: 5,
     questions: [
       {
-        question: 'How could I have added the questions in this quiz?',
-        choices: ['Using a JSON file', 'Using a JS object', 'Hard code them', 'All of the above'],
+        question: 'Inside which HTML element do we put the JavaScript?',
+        choices: ['<scripting>', '<javascript>', '<js>', '<script>'],
         type: 'MCQs',
-        correctAnswer: 'All of the above',
+        correctAnswer: '<script>',
       },
       {
         question:
@@ -16,6 +16,13 @@ export const quiz = {
         choices: ['var', 'let', 'var and let', 'None of the above'],
         type: 'MCQs',
         correctAnswer: 'var and let',
+      },
+      {
+        question:
+          'Where is the correct place to insert a JavaScript?',
+        choices: ['The <head> section', 'Both the <head> and <body> sections are corect', 'The <body> section'],
+        type: 'MCQs',
+        correctAnswer: 'Both the <head> and <body> sections are corect',
       },
       {
         question:
