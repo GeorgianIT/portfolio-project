@@ -9,10 +9,10 @@ const Footer = () => {
               <p className='text-white pt-[5vh] lg:text-md text-sm mb-5'>Would you like to get my CV in PDF?</p>
               
         <div className='flex justify-between'>
-          <button href='#' onClick={onButtonClick} className='rounded-full bg-neutral-500 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60'>Download CV</button>
+          <button href='#' onClick={onButtonClick} className='hover:scale-[110%] transform transition duration-300 rounded-full bg-neutral-500 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60'>Download CV</button>
           <div className=' w-90% flex justify-start gap-3'>
-                <a href='https://www.linkedin.com/in/georgian-tudor/' target='_blank'><img src={linkedin} alt='linkedin' className='w-[45px]' /></a>                  
-                <a href='https://github.com/GeorgianIT' target='_blank' ><img src={github2} alt='github' className='w-[44px]' /></a>      
+                <a href='https://www.linkedin.com/in/georgian-tudor/' target='_blank'><img src={linkedin} alt='linkedin' className='w-[45px] hover:scale-[110%] transform transition duration-300' /></a>                  
+                <a href='https://github.com/GeorgianIT' target='_blank' ><img src={github2} alt='github' className='w-[44px] hover:scale-[110%] transform transition duration-300' /></a>      
             </div>
         </div>
       </div>

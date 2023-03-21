@@ -1,7 +1,7 @@
 export const quiz = {
     topic: 'Javascript',
     level: 'Beginner',
-    totalQuestions: 4,
+    totalQuestions: 5,
     perQuestionScore: 5,
     questions: [
       {
