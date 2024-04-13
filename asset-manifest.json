@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-project/static/css/main.cdc488f2.css",
-    "main.js": "/portfolio-project/static/js/main.15312c42.js",
+    "main.js": "/portfolio-project/static/js/main.e633e8df.js",
     "static/media/Quiz.jpg": "/portfolio-project/static/media/Quiz.0305b4889d54296c9b6b.jpg",
     "static/media/readingGuy.png": "/portfolio-project/static/media/readingGuy.491110904394a42fe164.png",
     "static/media/fast-and-furious.png": "/portfolio-project/static/media/fast-and-furious.32471b2d9379d14ffe04.png",
@@ -12,6 +12,7 @@
     "static/media/Captain-America-Civil-War.jpg": "/portfolio-project/static/media/Captain-America-Civil-War.b10b6a8bfe668e109ad8.jpg",
     "static/media/reading.jpg": "/portfolio-project/static/media/reading.c0c7e9d987bf497c7b96.jpg",
     "static/media/editor.jpg": "/portfolio-project/static/media/editor.ac6f8a2f322eabd405f0.jpg",
+    "static/media/profilePhoto.jpg": "/portfolio-project/static/media/profilePhoto.8fadb078de4f564e298e.jpg",
     "static/media/AiPhoto2.png": "/portfolio-project/static/media/AiPhoto2.870ac40acd0e547c5637.png",
     "static/media/openBook (4).jpg": "/portfolio-project/static/media/openBook (4).5ca7412ed7f5ea0a14be.jpg",
     "static/media/openBook 1.jpg": "/portfolio-project/static/media/openBook 1.aca952c3467e17c91a68.jpg",
@@ -61,10 +62,10 @@
     "static/media/linkedin.svg": "/portfolio-project/static/media/linkedin.8762f6e957e5d6c297b9cbc434ecf218.svg",
     "static/media/icons8-close.svg": "/portfolio-project/static/media/icons8-close.fd78c4283cecb09f2cfe.svg",
     "main.cdc488f2.css.map": "/portfolio-project/static/css/main.cdc488f2.css.map",
-    "main.15312c42.js.map": "/portfolio-project/static/js/main.15312c42.js.map"
+    "main.e633e8df.js.map": "/portfolio-project/static/js/main.e633e8df.js.map"
   },
   "entrypoints": [
     "static/css/main.cdc488f2.css",
-    "static/js/main.15312c42.js"
+    "static/js/main.e633e8df.js"
   ]
 }
