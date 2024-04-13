@@ -17,4 +17,5 @@ import calculator2 from './calculator.jpeg'
 import pdf from './icons_pdf.png'
 import aiphoto from './AiPhoto.jpeg'
 import netflix from './netflix.jpeg'
-export { close, menu, lake, videoEditing, forest,editor, reading, react, javascript, tailwind ,mypicture, red, todo,  todoportret, calculator, calculator2, pdf,aiphoto, netflix};
+import profilePhoto from './profilePhoto.jpg'
+export { close, menu, lake, videoEditing, forest,editor, reading, react, javascript, tailwind ,mypicture, red, todo,  todoportret, calculator, calculator2, pdf,aiphoto, netflix, profilePhoto};
